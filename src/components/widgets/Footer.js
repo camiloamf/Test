@@ -1,6 +1,7 @@
 import React from "react";
 import moment from "moment-timezone";
 import { Row, Col, Card } from '@themesberg/react-bootstrap';
+import '../style.css'
 
 const Footer = () => {
   const currentYear = moment().get("year");
@@ -12,8 +13,8 @@ const Footer = () => {
           <Col xs={12} lg={6} className="mb-4 mb-lg-0">
             <p className="mb-0 text-center text-xl-left">
               Copyright © {`${currentYear} `}
-              <Card.Link href="https://www.rabbitstudio.co/" target="_blank" className="text-blue text-decoration-none fw-normal">
-                Rabbit Studio
+              <Card.Link href="#" target="_blank" className="text-blue text-decoration-none fw-normal">
+
               </Card.Link>
             </p>
           </Col>

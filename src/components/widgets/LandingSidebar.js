@@ -6,7 +6,8 @@ import { faBoxOpen, faHandHoldingUsd, faTimes } from "@fortawesome/free-solid-sv
 import { Nav, Badge, Image, Button, Navbar } from '@themesberg/react-bootstrap';
 
 import { Routes } from "../../routes";
-import toppoLogo from "../../assets/img/logos/toppo-logo.png";
+import questLogo from '../../assets/img/logos/Logo-Quest.svg';
+import '../style.css'
 
 const LandingSidebar = () => {
   const navigate = useNavigate();
@@ -37,7 +38,7 @@ const LandingSidebar = () => {
       <Navbar expand={false} collapseOnSelect variant="dark" className="navbar-theme-primary px-4 d-md-none">
         <Navbar.Brand className="me-lg-5">
           <Image
-            src={toppoLogo}
+            src={questLogo}
             className="navbar-brand-light img-fluid"
             style={{ height: '50px', width: 'auto' }}
           />
@@ -59,10 +60,7 @@ const LandingSidebar = () => {
               </Nav.Link>
             </div>
             <Nav className="flex-column pt-3 pt-md-0">
-              <NavItem title="Ingresa"  />
-              <NavItem title="Mayoristas" />
-              <NavItem title="Planes"  />
-              <NavItem title="Contacto"  />
+              <NavItem title="Acceder a mi cuenta"  />
             </Nav>
           </div>
         </div>
