@@ -5,7 +5,6 @@ import { Col, Row, Card, Image, Button, Container, ListGroup, Tooltip, OverlayTr
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
-import rabbitLogoBlack from '../assets/img/logos/rabbit-iso.png';
 import questLogo from '../assets/img/logos/Logo-Quest.svg';
 import banner from '../assets/img/banner/banner1.jpg';
 import product1 from '../assets/img/products/product1.webp';
@@ -13,8 +12,6 @@ import product2 from '../assets/img/products/product2.webp';
 import product3 from '../assets/img/products/product3.webp';
 import artist from '../assets/img/products/artist.jpg';
 
-import BS5Logo from "../assets/img/technologies/bootstrap-5-logo.svg";
-import ReactLogo from "../assets/img/technologies/react-logo.svg";
 import './style.css'
 
 
